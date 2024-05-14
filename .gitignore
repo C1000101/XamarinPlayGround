@@ -1,14 +1,13 @@
 .vs
 
-HelloWorld/HelloWorld/HelloWorld/bin
-HelloWorld/HelloWorld/HelloWorld/obj
+HelloWorld/HelloWorld/bin/
+HelloWorld/HelloWorld/obj/
 
-HelloWorld/HelloWorld/HelloWorld.Android/bin
-HelloWorld/HelloWorld/HelloWorld.Android/obj
+HelloWorld/HelloWorld.Android/bin/
+HelloWorld/HelloWorld.Android/obj/
 
-HelloWorld/HelloWorld/HelloWorld.iOS/bin
-HelloWorld/HelloWorld/HelloWorld.iOS/obj
+HelloWorld/HelloWorld.iOS/bin/
+HelloWorld/HelloWorld.iOS/obj/
 
-HelloWorld/HelloWorld/HelloWorld.UWP/bin
-HelloWorld/HelloWorld/HelloWorld.UWP/obj
-
+HelloWorld/HelloWorld.UWP/bin/
+HelloWorld/HelloWorld.UWP/obj/
