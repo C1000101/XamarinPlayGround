@@ -1,9 +1,14 @@
 .vs
 
-C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin
+HelloWorld/HelloWorld/HelloWorld/bin
+HelloWorld/HelloWorld/HelloWorld/obj
 
-C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.Android\bin
+HelloWorld/HelloWorld/HelloWorld.Android/bin
+HelloWorld/HelloWorld/HelloWorld.Android/obj
 
-C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin
+HelloWorld/HelloWorld/HelloWorld.iOS/bin
+HelloWorld/HelloWorld/HelloWorld.iOS/obj
 
-C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.UWP\bin
+HelloWorld/HelloWorld/HelloWorld.UWP/bin
+HelloWorld/HelloWorld/HelloWorld.UWP/obj
+
