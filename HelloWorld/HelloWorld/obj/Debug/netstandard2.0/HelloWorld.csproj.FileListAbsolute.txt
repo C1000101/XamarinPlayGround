@@ -1,0 +1,52 @@
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.deps.json
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\ref\HelloWorld.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.pdb
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csproj.AssemblyReference.cache
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfoInputs.cache
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfo.cs
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\refint\HelloWorld.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GreetPage.xaml.g.cs
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.deps.json
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\ref\HelloWorld.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.pdb
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GreetPage.xaml.g.cs
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfo.cs
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\refint\HelloWorld.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.deps.json
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.dll
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\ref\HelloWorld.dll
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\bin\Debug\netstandard2.0\HelloWorld.pdb
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GreetPage.xaml.g.cs
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.AssemblyInfo.cs
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.dll
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\refint\HelloWorld.dll
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\HelloWorld.pdb
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\StackPage.xaml.g.cs
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\GridPage.xaml.g.cs
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\PhoneNumber.xaml.g.cs
+C:\Users\ahamood\Documents\!_Xamarin\HelloWorld\HelloWorld\HelloWorld\obj\Debug\netstandard2.0\AbsolutePage.xaml.g.cs

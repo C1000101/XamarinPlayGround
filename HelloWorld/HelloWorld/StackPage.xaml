@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.StackPage">
+    <StackLayout>
+        <Label Text="Some Photographer"/>
+        <BoxView Color="#f0f0f0" HeightRequest="1"/>
+    </StackLayout>
+</ContentPage>
+    
+    
+    
+    
+    
+<!--<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#127ac7"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.StackPage">
+    <StackLayout HorizontalOptions="Fill"
+                 VerticalOptions="Center">
+        <Label Text="Welcome to Xamarin" 
+               FontSize="30"
+               TextColor="White"
+               FontAttributes="Bold"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        <Label Text="Cross-platform apps made easy"
+               FontSize="18"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Button Text="Login"
+               Background="#1dabf0"
+               TextColor="White"
+               HorizontalOptions="Fill"
+               VerticalOptions="Center"/>
+        <Button Text="Register"
+               Background="#1dabf0"
+               TextColor="White"
+               HorizontalOptions="Fill"
+               VerticalOptions="Center"/>
+    </StackLayout>
+</ContentPage>-->

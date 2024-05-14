@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloWorld.GreetPage">
+    <StackLayout 
+        HorizontalOptions="Center" 
+        VerticalOptions="Center"
+        WidthRequest="200">
+        <Button x:Name="Button1" Clicked="Button1_Click" Text="Next" WidthRequest="100"/>
+        <Label x:Name="label"/>
+        <Slider x:Name="slider" WidthRequest="100" ValueChanged="Slider_ValueChanged"/>
+        <Label x:Name="quoteLabel"/>
+    </StackLayout>
+</ContentPage>

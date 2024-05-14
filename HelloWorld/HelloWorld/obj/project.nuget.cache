@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "jlyjMS39hujSiZK6J84e1coFruzDvOasAqO95v6kr3+rvba3Xd0o2vET2cEpjBRNc4mL0eqFuTDimv3YJdvOcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ahamood\\Documents\\!_Xamarin\\HelloWorld\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahamood\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ahamood\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ahamood\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ahamood\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512",
+    "C:\\Users\\ahamood\\.nuget\\packages\\xamarin.forms\\5.0.0.2662\\xamarin.forms.5.0.0.2662.nupkg.sha512"
+  ],
+  "logs": []
+}

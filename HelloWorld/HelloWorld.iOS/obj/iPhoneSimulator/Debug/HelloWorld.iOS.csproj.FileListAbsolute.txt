@@ -1,0 +1,126 @@
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\HelloWorld.iOS.exe
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\HelloWorld.iOS.pdb
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\HelloWorld.dll
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\HelloWorld.pdb
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\actool\_ProcessedImageAssetsPath.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\_ProcessedBundleResourcesPath.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\_ProcessedContentPath.items
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\optimized\
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWorld.iOS.csproj.AssemblyReference.cache
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWorld.iOS.csproj.CoreCompileInputs.cache
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWor.5FF6D433.Up2Date
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWorld.iOS.exe
+D:\Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWorld.iOS.pdb
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\HelloWorld.iOS.exe
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\HelloWorld.iOS.pdb
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\HelloWorld.dll
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\bin\iPhoneSimulator\Debug\HelloWorld.pdb
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\_ProcessedContentPath.items
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWorld.iOS.csproj.AssemblyReference.cache
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWorld.iOS.csproj.CoreCompileInputs.cache
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWor.5FF6D433.Up2Date
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWorld.iOS.exe
+C:\Users\ahamood\OneDrive - StarFish Product Engineering Inc\Desktop\!_Xamarin\HelloWorld\HelloWorld\HelloWorld.iOS\obj\iPhoneSimulator\Debug\HelloWorld.iOS.pdb
