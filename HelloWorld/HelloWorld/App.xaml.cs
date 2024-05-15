@@ -10,7 +10,8 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new CreditPage();
+			MainPage = new CoverPage();
+			//MainPage = new CreditPage();
 			//MainPage = new AbsolutePage();
 			//MainPage = new GridPage();
 			//MainPage = new StackPage();
