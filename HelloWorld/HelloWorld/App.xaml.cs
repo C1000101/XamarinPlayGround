@@ -10,7 +10,8 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new RelativePage();
+			MainPage = new RelativeLayoutExcercise();
+			//MainPage = new RelativePage();
 			//MainPage = new CoverPage();
 			//MainPage = new CreditPage();
 			//MainPage = new AbsolutePage();
