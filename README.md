@@ -1,1 +1,3 @@
-"# XamarinPlayGround" 
+# XamarinPlayGround
+
+## Introduction
