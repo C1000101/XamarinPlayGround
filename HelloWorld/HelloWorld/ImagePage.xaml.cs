@@ -16,12 +16,12 @@ namespace HelloWorld
 		{
 			InitializeComponent ();
 
-			var imageSource = new UriImageSource { Uri = new Uri("https://picsum.photos/1920/1080") };
-			imageSource.CachingEnabled = false;
-			imageSource.CacheValidity = TimeSpan.FromHours(1);
-			image.Source = imageSource;
+			//image.Source = ImageSource.FromResource("HelloWorld.Images.background.jpg");
 
-
+			//var imageSource = new UriImageSource { Uri = new Uri("https://picsum.photos/1920/1080") };
+			//imageSource.CachingEnabled = false;
+			//imageSource.CacheValidity = TimeSpan.FromHours(1);
+			//image.Source = imageSource;
 		}
 	}
 }
