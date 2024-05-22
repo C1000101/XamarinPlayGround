@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HelloWorld.MarkupExtensions"
+             x:Class="HelloWorld.PhotoGallery">
+    <AbsoluteLayout BackgroundColor="Black">
+        <Button x:Name="previous"
+                Text=""
+                BackgroundColor="Transparent"
+                BorderColor="Transparent"
+                BorderWidth="0"
+                Clicked="Previous_Clicked"
+                ImageSource="{local:EmbeddedImage ResourceId=HelloWorld.Images.left.png}"
+                AbsoluteLayout.LayoutBounds="0.05, 0.05, AutoSize, AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <ActivityIndicator Color="White"
+                           IsRunning="{Binding Source={x:Reference image}, Path=IsLoading}"
+                           AbsoluteLayout.LayoutBounds="0.5, 0.05, AutoSize, AutoSize"
+                           AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Button x:Name="next"
+                Text=""
+                BackgroundColor="Transparent"
+                BorderColor="Transparent"
+                BorderWidth="0"
+                Clicked="Next_Clicked"
+                ImageSource="{local:EmbeddedImage ResourceId=HelloWorld.Images.right.png}"
+                AbsoluteLayout.LayoutBounds="0.95, 0.05, AutoSize, AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image x:Name="image" 
+               AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+    </AbsoluteLayout>
+</ContentPage>

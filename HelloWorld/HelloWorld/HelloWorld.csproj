@@ -13,16 +13,26 @@
 
   <ItemGroup>
     <None Remove="Images\background.jpg" />
+    <None Remove="Images\left.png" />
+    <None Remove="Images\right.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Images\background.jpg" />
+    <EmbeddedResource Include="Images\left.png" />
+    <EmbeddedResource Include="Images\right.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2662" />
     <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="PhotoGallery.xaml.cs">
+      <DependentUpon>PhotoGallery.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -48,6 +58,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="PhoneNumber.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PhotoGallery.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="RelativeLayoutExcercise.xaml">

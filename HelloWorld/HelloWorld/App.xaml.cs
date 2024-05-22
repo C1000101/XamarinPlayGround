@@ -10,7 +10,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new Demo();
+			MainPage = new PhotoGallery();
 			//MainPage = new ImagePage();
 			//MainPage = new RelativeLayoutExcercise();
 			//MainPage = new RelativePage();
