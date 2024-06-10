@@ -6,7 +6,9 @@
               HasUnevenRows="true"
               IsGroupingEnabled="True"
               GroupDisplayBinding="{Binding Title}"
-              GroupShortNameBinding="{Binding ShortTitle}">
+              GroupShortNameBinding="{Binding ShortTitle}"
+              ItemTapped="listView_ItemTapped"
+              ItemSelected="listView_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <!--<ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding ImageUrl}"/>-->
