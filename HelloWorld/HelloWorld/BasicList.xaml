@@ -2,22 +2,42 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.BasicList">
-    <ListView x:Name="listView"
-              HasUnevenRows="true"
-              IsGroupingEnabled="True"
-              GroupDisplayBinding="{Binding Title}"
-              GroupShortNameBinding="{Binding ShortTitle}"
-              ItemTapped="listView_ItemTapped"
-              ItemSelected="listView_ItemSelected">
+    <ListView x:Name="listView">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <!--<ImageCell Text="{Binding Name}" Detail="{Binding Status}" ImageSource="{Binding ImageUrl}"/>-->
+                <TextCell Text="{Binding Name}" Detail="{Binding Status}">
+                    <TextCell.ContextActions>
+                        <MenuItem Text="Call" 
+                                  Clicked="Call_Clicked" 
+                                  CommandParameter="{Binding .}"/>
+                        <MenuItem Text="Delete" 
+                                  Clicked="Delete_Clicked" 
+                                  IsDestructive="True" 
+                                  CommandParameter="{Binding .}"/>
+                    </TextCell.ContextActions>
+                </TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
+
+
+<!--Removed for 7-Context Actions-->
+    <!--<ListView x:Name="listView"
+                  HasUnevenRows="true"
+                  IsGroupingEnabled="True"
+                  GroupDisplayBinding="{Binding Title}"
+                  GroupShortNameBinding="{Binding ShortTitle}"
+                  ItemTapped="listView_ItemTapped"
+                  ItemSelected="listView_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
                 <ViewCell>
                     <StackLayout Orientation="Horizontal"
-                                 Padding="2, 2, 2, 2">
-                        <!--<Image Source="{Binding ImageUrl}"
-                               HeightRequest="100"
-                               WidthRequest="100"/>-->
+                                     Padding="2, 2, 2, 2">
+                        --><!--<Image Source="{Binding ImageUrl}"
+                                   HeightRequest="100"
+                                   WidthRequest="100"/>--><!--
                         <StackLayout HorizontalOptions="StartAndExpand">
                             <Label Text="{Binding Name}"/>
                             <Label Text="{Binding Status}" TextColor="Gray"/>
@@ -27,5 +47,4 @@
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
-    </ListView>
-</ContentPage>
+    </ListView>-->
