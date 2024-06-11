@@ -26,7 +26,7 @@ namespace HelloWorld
 				new Contact { Name = "Bob", ImageUrl = "https://picsum.photos/id/2/1920/1080/", Status = "Hey, lets talk!"},
 			};
 
-			listView.ItemsSource = _contacts;
+			listView.ItemsSource = GetContacts();
 
 			//listView.ItemsSource = new List<Contact>
 			//{
@@ -46,6 +46,15 @@ namespace HelloWorld
 			//		new Contact { Name = "Bob", ImageUrl = "https://picsum.photos/id/2/1920/1080/", Status = "Hey, lets talk!"},
 			//	},
 			//};
+		}
+
+		private List<Contact> GetContacts()
+		{
+			return new List<Contact>
+			{
+				new Contact { Name = "Ali", ImageUrl = "https://picsum.photos/id/1/1920/1080/" },
+				new Contact { Name = "Bob", ImageUrl = "https://picsum.photos/id/2/1920/1080/", Status = "Hey, lets talk!"},
+			};
 		}
 
 		private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -72,6 +81,12 @@ namespace HelloWorld
 		{
 			var contact = (sender as MenuItem).CommandParameter as Contact;
 			_contacts.Remove(contact);
+		}
+
+		private void listView_Refreshing(object sender, EventArgs e)
+		{
+			listView.ItemsSource = GetContacts();
+			listView.EndRefresh();
 		}
 	}
 }
