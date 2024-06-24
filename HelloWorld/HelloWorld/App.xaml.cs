@@ -10,7 +10,11 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new BasicList();
+			MainPage = new NavigationPage(new WelcomePage())
+			{
+				BarBackgroundColor = Color.Gray,
+				BarTextColor = Color.White,
+			};
 			//MainPage = new PhotoGallery();
 			//MainPage = new ImagePage();
 			//MainPage = new RelativeLayoutExcercise();
