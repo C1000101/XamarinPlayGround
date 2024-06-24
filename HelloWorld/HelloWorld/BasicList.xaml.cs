@@ -28,6 +28,8 @@ namespace HelloWorld
 
 			listView.ItemsSource = GetContacts();
 
+
+
 			//listView.ItemsSource = new List<Contact>
 			//{
 			//	new Contact { Name = "Ali", ImageUrl = "https://picsum.photos/id/1/1920/1080/" },	
@@ -48,13 +50,18 @@ namespace HelloWorld
 			//};
 		}
 
-		private List<Contact> GetContacts()
+		private IEnumerable<Contact> GetContacts( string searchText = null)
 		{
-			return new List<Contact>
+			var contacts = new List<Contact>
 			{
 				new Contact { Name = "Ali", ImageUrl = "https://picsum.photos/id/1/1920/1080/" },
 				new Contact { Name = "Bob", ImageUrl = "https://picsum.photos/id/2/1920/1080/", Status = "Hey, lets talk!"},
 			};
+
+			if (String.IsNullOrEmpty(searchText))
+				return contacts;
+
+			return contacts.Where(c => c.Name == searchText);
 		}
 
 		private void listView_ItemTapped(object sender, ItemTappedEventArgs e)
@@ -87,6 +94,11 @@ namespace HelloWorld
 		{
 			listView.ItemsSource = GetContacts();
 			listView.EndRefresh();
+		}
+
+		private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
+		{
+			listView.ItemsSource = GetContacts(e.NewTextValue);
 		}
 	}
 }
