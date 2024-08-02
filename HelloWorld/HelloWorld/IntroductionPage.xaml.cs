@@ -19,7 +19,7 @@ namespace HelloWorld
 
 		async private void BackButton_Clicked(object sender, EventArgs e)
 		{
-			await Navigation.PopAsync();
+			await Navigation.PopModalAsync();
 		}
 	}
 }
