@@ -27,5 +27,15 @@ namespace HelloWorld
 			double temp = e.OldValue;
 			temp = e.NewValue;
 		}
+
+		private void Entry_Completed(object sender, EventArgs e)
+		{
+			label2.Text = "Completed";
+		}
+
+		private void Entry_TextChanged(object sender, TextChangedEventArgs e)
+		{
+			label2.Text = e.NewTextValue;
+		}
 	}
 }
