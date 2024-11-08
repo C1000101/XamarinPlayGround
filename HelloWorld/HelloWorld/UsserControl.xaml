@@ -9,5 +9,7 @@
         <Switch IsToggled="true" x:Name="switch"/>
         <Label Text="Content2" 
                IsVisible="{Binding Source={x:Reference switch}, Path=IsToggled}"/>
+        <Slider x:Name="slider" Minimum="10" Maximum="255" Value="50"/>
+        <Label Text="{Binding Source={x:Reference slider}, Path=Value, StringFormat='{0:N0}'}"/>
     </StackLayout>
 </ContentPage>

@@ -21,5 +21,11 @@ namespace HelloWorld
 		{
 			label.IsVisible = e.Value;
         }
-    }
+
+		private void slider_ValueChanged(object sender, ValueChangedEventArgs e)
+		{
+			double temp = e.OldValue;
+			temp = e.NewValue;
+		}
+	}
 }
