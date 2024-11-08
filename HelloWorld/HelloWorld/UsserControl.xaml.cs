@@ -15,6 +15,13 @@ namespace HelloWorld
 		public UsserControl()
 		{
 			InitializeComponent();
+
+			_contactMethods = GetContactMethods();
+
+			foreach (var method in _contactMethods)
+			{
+				contactMethods.Items.Add(method.Name);
+			}
 		}
 
 		private void Switch_Toggled(object sender, ToggledEventArgs e)
@@ -37,5 +44,35 @@ namespace HelloWorld
 		{
 			label2.Text = e.NewTextValue;
 		}
+
+		//private void Picker_SelectedIndexChanged(object sender, EventArgs e)
+		//{
+		//	var contactMethod = contactMethods.Items[contactMethods.SelectedIndex];
+		//	DisplayAlert("Selection", contactMethod, "OK");
+		//}
+
+		private IList<ContactMethod> _contactMethods;
+		private void Picker_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			var name = contactMethods.Items[contactMethods.SelectedIndex];
+			var contactMethod = _contactMethods.Single(cm => cm.Name == name);
+
+			DisplayAlert("Selection", name, "OK");
+		}
+
+		private IList<ContactMethod> GetContactMethods ()
+		{
+			return new List<ContactMethod>()
+			{
+				new ContactMethod { Id = 1, Name = "SMS"},
+				new ContactMethod { Id = 2, Name = "Email"},
+			};
+		}
+	}
+
+	public class ContactMethod
+	{
+		public int Id { get; set; }
+		public string Name { get; set; }
 	}
 }
