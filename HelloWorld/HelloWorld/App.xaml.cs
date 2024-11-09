@@ -10,7 +10,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new UsserControl();
+			MainPage = new UserControlsTwo();
 			//MainPage = new NavigationPage(new ContactsPage());
 			//MainPage = new NavigationPage(new WelcomePage())
 			//{
