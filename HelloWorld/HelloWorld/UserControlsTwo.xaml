@@ -5,6 +5,8 @@
              Padding="40"
              xmlns:sys="clr-namespace:System;assembly=mscorlib">
     <StackLayout>
+        <!--<Button Text="Next" Clicked="ButtonNext_Cliecked"/>
+        <Button Text="Back" Clicked="ButtonBack_Clicked"/>-->
         <DatePicker Date="{x:Static sys:DateTime.Today}" 
                     Format="d MMM yyyy"
                     MinimumDate="1 Jan 2024"
