@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:local="clr-namespace:HelloWorld.Extensions"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HelloWorld.TableViewUserControls">
     <TableView Intent="Form">
@@ -8,12 +9,8 @@
                 <TextCell Text="Name" Detail="Mosh"/>
                 <EntryCell Label="Title" Placeholder="(eg Shopping)"/>
                 <SwitchCell Text="Notifications" On="True" />
-                <ViewCell>
-                    <StackLayout Orientation="Horizontal" Padding="13, 0">
-                        <Label Text="Starts" VerticalOptions="Center"/>
-                        <DatePicker Date="1 Jan 2016" HorizontalOptions="EndAndExpand"/>
-                    </StackLayout>
-                </ViewCell>
+                <local:DateCell Label="Start" />
+                <local:DateCell Label="End" />
             </TableSection>
         </TableRoot>
     </TableView>
