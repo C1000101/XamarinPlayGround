@@ -13,7 +13,7 @@ namespace HelloWorld.Extensions
 	public partial class DateCell : ViewCell
 	{
 		public static readonly BindableProperty LabelProperty = 
-			BindableProperty.Create("Label", typeof(Label), typeof(DateCell));
+			BindableProperty.Create("Label", typeof(string), typeof(DateCell));
 		public string Label 
 		{
 			get { return (string)GetValue(LabelProperty); }

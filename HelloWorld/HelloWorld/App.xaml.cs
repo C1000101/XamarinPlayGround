@@ -10,7 +10,7 @@ namespace HelloWorld
 		{
 			InitializeComponent();
 
-			MainPage = new TableViewUserControls();
+			MainPage = new NavigationPage(new TableViewUserControls());
 			//MainPage = new NavigationPage(new ContactsPage());
 			//MainPage = new NavigationPage(new WelcomePage())
 			//{
