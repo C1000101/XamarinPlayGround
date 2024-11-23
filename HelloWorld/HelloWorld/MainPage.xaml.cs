@@ -1,89 +1,65 @@
-﻿using Xamarin.Forms;
-using SQLite;
-using System;
+﻿using Newtonsoft.Json;
+using System.Net.Http;
+using Xamarin.Forms;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
+using System;
 
 namespace HelloWorld
 {
-	public class Recipe : INotifyPropertyChanged
+	public class Post 
 	{
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		[PrimaryKey, AutoIncrement]
 		public int Id { get; set; }
-
-		private string _name;
-
-		[MaxLength(255)]
-		public string Name  
-		{
-			get { return _name; }
-			set 
-			{
-				if (_name == value)
-					return;
-
-				_name = value;
-
-				OnPropertyChanged();
-			}
-		}
-
-		private void OnPropertyChanged([CallerMemberName] string propertyName = null)
-		{
-			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-		}
+		public string Title { get; set; }
+		public string Body { get; set; }
 	}
 
 	public partial class MainPage : ContentPage
 	{
-		private SQLiteAsyncConnection _connection;
-		private ObservableCollection<Recipe> _recipes;
+		private const string Url = "https://jsonplaceholder.typicode.com/posts";
+		private HttpClient _client = new HttpClient();
+		private ObservableCollection<Post> _posts;
 
 		public MainPage()
 		{
 			InitializeComponent();
-
-			_connection = DependencyService.Get<HelloWorld.Persistence.ISQLiteDb>().GetConnection();
 		}
 
 		protected override async void OnAppearing()
 		{
-			await _connection.CreateTableAsync<Recipe>();
+			var content = await _client.GetStringAsync(Url);
+			var posts = JsonConvert.DeserializeObject<List<Post>>(content);
 
-			var recipes = await _connection.Table<Recipe>().ToListAsync();
-			_recipes = new ObservableCollection<Recipe>(recipes);
-			recipesListView.ItemsSource = _recipes;
+			_posts = new ObservableCollection<Post>(posts);
+			postsListView.ItemsSource = _posts;
 
 			base.OnAppearing();
 		}
 
 		async void OnAdd(object sender, System.EventArgs e)
 		{
-			var recipe = new Recipe { Name = "Recipe " + DateTime.Now.Ticks };
+			var post = new Post { Title = "Title " + DateTime.Now.Ticks };
 
-			await _connection.InsertAsync(recipe);
-
-			_recipes.Add(recipe);
+			_posts.Insert(0, post);
+			
+			var content = JsonConvert.SerializeObject(post);
+			await _client.PostAsync(Url, new StringContent(content));
 		}
 
 		async void OnUpdate(object sender, System.EventArgs e)
 		{
-			var recipe = _recipes[0];
-			recipe.Name += " UPDATE";
+			var post = _posts[0];
+			post.Title += " UPDATE";
 
-			await _connection.UpdateAsync(recipe);
+			var content = JsonConvert.SerializeObject(post);
+			await _client.PutAsync(Url + "/" + post.Id, new StringContent(content));
 		}
 
 		async void OnDelete(object sender, System.EventArgs e)
 		{
-			var recipe = _recipes[0];
-
-			await _connection.DeleteAsync(recipe);
-
-			_recipes.Remove(recipe);
+			var post = _posts[0];
+			_posts.Remove(post);
+			await _client.DeleteAsync(Url + "/" + post.Id);
 		}
 	}
 }
