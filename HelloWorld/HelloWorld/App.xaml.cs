@@ -6,6 +6,8 @@ namespace HelloWorld
 {
 	public partial class App : Application
 	{
+		private const string TitleKey = "Name";
+		private const string NotificationEnableKey = "NotificationEnabled";
 		public App()
 		{
 			InitializeComponent();
@@ -39,6 +41,36 @@ namespace HelloWorld
 
 		protected override void OnResume()
 		{
+		}
+
+		public string Title
+		{
+			get
+			{
+				if (Properties.ContainsKey(TitleKey))
+					return Properties[TitleKey].ToString();
+
+				return string.Empty;
+			}
+			set
+			{
+				Properties[TitleKey] = value;
+			}
+		}
+
+		public bool NotificationEnabled
+		{
+			get
+			{
+				if (Properties.ContainsKey(NotificationEnableKey))
+					return (bool)Properties[NotificationEnableKey];
+
+				return false;
+			}
+			set
+			{
+				Properties[NotificationEnableKey] = value;
+			}
 		}
 	}
 }

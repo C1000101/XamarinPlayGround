@@ -5,14 +5,11 @@
     <TableView>
         <TableRoot>
             <TableSection>
-                <EntryCell x:Name="title" 
-                           Text="{Binding Title}" 
+                <EntryCell Text="{Binding Title}" 
                            Label="Title" 
-                           Placeholder="(eg shopping list)"
-                           Completed="OnChanged"></EntryCell>
-                <SwitchCell x:Name="notificationEnabled" 
-                            Text="Notifications" On="{Binding NotificationEnabled}"
-                            OnChanged="OnChanged"></SwitchCell>
+                           Placeholder="(eg shopping list)"></EntryCell>
+                <SwitchCell Text="Notifications" 
+                            On="{Binding NotificationEnabled}"></SwitchCell>
             </TableSection>
         </TableRoot>
     </TableView>
