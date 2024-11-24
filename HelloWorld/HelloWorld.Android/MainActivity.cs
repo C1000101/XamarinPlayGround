@@ -6,7 +6,7 @@ using Android.Runtime;
 using Android.OS;
 using ImageCircle.Forms.Plugin.Droid;
 
-namespace HelloWorld.Droid
+namespace MvvmDemo
 {
     [Activity(Label = "HelloWorld", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity

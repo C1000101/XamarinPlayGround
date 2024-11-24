@@ -1,76 +1,29 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
-namespace HelloWorld
+namespace MvvmDemo
 {
 	public partial class App : Application
 	{
-		private const string TitleKey = "Name";
-		private const string NotificationEnableKey = "NotificationEnabled";
 		public App()
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
-			//MainPage = new NavigationPage(new ContactsPage());
-			//MainPage = new NavigationPage(new WelcomePage())
-			//{
-			//	BarBackgroundColor = Color.Gray,
-			//	BarTextColor = Color.White,
-			//};
-			//MainPage = new PhotoGallery();
-			//MainPage = new ImagePage();
-			//MainPage = new RelativeLayoutExcercise();
-			//MainPage = new RelativePage();
-			//MainPage = new CoverPage();
-			//MainPage = new CreditPage();
-			//MainPage = new AbsolutePage();
-			//MainPage = new GridPage();
-			//MainPage = new StackPage();
-			//MainPage = new GreetPage();
+			MainPage = new NavigationPage(new PlaylistsPage());
 		}
 
 		protected override void OnStart()
 		{
+			// Handle when your app starts
 		}
 
 		protected override void OnSleep()
 		{
+			// Handle when your app sleeps
 		}
 
 		protected override void OnResume()
 		{
-		}
-
-		public string Title
-		{
-			get
-			{
-				if (Properties.ContainsKey(TitleKey))
-					return Properties[TitleKey].ToString();
-
-				return string.Empty;
-			}
-			set
-			{
-				Properties[TitleKey] = value;
-			}
-		}
-
-		public bool NotificationEnabled
-		{
-			get
-			{
-				if (Properties.ContainsKey(NotificationEnableKey))
-					return (bool)Properties[NotificationEnableKey];
-
-				return false;
-			}
-			set
-			{
-				Properties[NotificationEnableKey] = value;
-			}
+			// Handle when your app resumes
 		}
 	}
 }
