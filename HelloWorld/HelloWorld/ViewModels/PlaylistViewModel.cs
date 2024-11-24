@@ -1,4 +1,5 @@
-﻿using MvvmDemo;
+﻿using HelloWorld.ViewModels;
+using MvvmDemo;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -6,11 +7,17 @@ using System.Text;
 
 namespace MvvmDemo
 {
-	internal class PlaylistViewModel
+	internal class PlaylistViewModel : BaseViewModel
 	{
 		public ObservableCollection<Playlist> Playlists { get; private set; } =
 			new ObservableCollection<Playlist>();
-		public Playlist SelectedPlaylist { get; set; }
+
+		private Playlist _selectedPlaylist;
+		public Playlist SelectedPlaylist 
+		{
+			get { return _selectedPlaylist; }
+			set { SetValue(ref _selectedPlaylist, value); }
+		}
 
 		public void AddPlaylist()
 		{

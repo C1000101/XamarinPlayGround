@@ -1,14 +1,13 @@
-﻿using System;
+﻿using HelloWorld.ViewModels;
+using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Xamarin.Forms;
 
 namespace MvvmDemo
 {
-    public class Playlist : INotifyPropertyChanged 
+    public class Playlist : BaseViewModel 
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public string Title { get; set; }
 
         private bool _isFavorite; 
@@ -17,12 +16,7 @@ namespace MvvmDemo
             get { return _isFavorite; }
             set 
             {
-                if (_isFavorite == value)
-                    return;
-
-                _isFavorite = value; 
-
-                OnPropertyChanged ();
+                SetValue(ref _isFavorite, value);
                 OnPropertyChanged (nameof(Color));
             }
         }
@@ -30,11 +24,6 @@ namespace MvvmDemo
         public Color Color 
         {
             get { return IsFavorite ? Color.Pink : Color.Black; }
-        }
-
-        private void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke (this, new PropertyChangedEventArgs (propertyName));
         }
     }
 }
