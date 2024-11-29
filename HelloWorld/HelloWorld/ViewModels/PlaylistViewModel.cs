@@ -4,37 +4,28 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using System.Drawing;
 
 namespace MvvmDemo
 {
-	internal class PlaylistViewModel : BaseViewModel
+	public class PlaylistViewModel : BaseViewModel
 	{
-		public ObservableCollection<Playlist> Playlists { get; private set; } =
-			new ObservableCollection<Playlist>();
+		public string Title { get; set; }
 
-		private Playlist _selectedPlaylist;
-		public Playlist SelectedPlaylist 
+		private bool _isFavorite;
+		public bool IsFavorite
 		{
-			get { return _selectedPlaylist; }
-			set { SetValue(ref _selectedPlaylist, value); }
+			get { return _isFavorite; }
+			set
+			{
+				SetValue(ref _isFavorite, value);
+				OnPropertyChanged(nameof(Color));
+			}
 		}
 
-		public void AddPlaylist()
+		public Color Color
 		{
-			var newPlaylist = "Playlist " + (Playlists.Count + 1);
-			Playlists.Add(new Playlist { Title = newPlaylist });
-		}
-
-		public void SelectPlaylist(Playlist playlist)
-		{
-			if (playlist == null)
-				return;
-
-			playlist.IsFavorite = !playlist.IsFavorite;
-
-			SelectedPlaylist = null;
-
-			//await Navigation.PushAsync (new PlaylistDetailPage(playlist));
+			get { return IsFavorite ? Color.Pink : Color.Black; }
 		}
 	}
 }
