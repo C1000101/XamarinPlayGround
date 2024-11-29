@@ -8,7 +8,7 @@ namespace MvvmDemo
     {
         public PlaylistsPage ()
         {
-            BindingContext = new PlaylistsViewModel(new PageService());
+            ViewModel = new PlaylistsViewModel(new PageService());
             InitializeComponent ();
         }
 
@@ -17,15 +17,15 @@ namespace MvvmDemo
             base.OnAppearing ();
         }
 
-        void OnAddPlaylist (object sender, System.EventArgs e)
-        {
-            (BindingContext as PlaylistsViewModel).AddPlaylist();
-        }
-
         void OnPlaylistSelected (object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
-            (BindingContext as PlaylistsViewModel)
-                .SelectPlaylist(e.SelectedItem as PlaylistViewModel);
+            ViewModel.SelectPlaylistCommand.Execute(e.SelectedItem);
+        }
+
+        private PlaylistsViewModel ViewModel
+        {
+            get { return BindingContext as PlaylistsViewModel; }
+            set { BindingContext = value; }
         }
     }
 }

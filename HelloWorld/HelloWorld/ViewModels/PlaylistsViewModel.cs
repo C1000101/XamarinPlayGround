@@ -3,37 +3,45 @@ using MvvmDemo;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace MvvmDemo
 {
 	public class PlaylistsViewModel : BaseViewModel
 	{
+		private PlaylistViewModel _selectedPlaylist;
+		private readonly IPageService _pageService;
+
+
 		public ObservableCollection<PlaylistViewModel> Playlists { get; private set; } =
 			new ObservableCollection<PlaylistViewModel>();
-
-		private PlaylistViewModel _selectedPlaylist;
 		public PlaylistViewModel SelectedPlaylist 
 		{
 			get { return _selectedPlaylist; }
 			set { SetValue(ref _selectedPlaylist, value); }
 		}
+		public ICommand AddPlaylistCommand { get; private set; }
+		public ICommand SelectPlaylistCommand { get; private set; }
 
-		private readonly IPageService _pageService;
 
         public PlaylistsViewModel(IPageService pageService)
         {
             _pageService = pageService;
+			AddPlaylistCommand = new Command(AddPlaylist);
+			SelectPlaylistCommand = new Command<PlaylistViewModel>(async vm => await SelectPlaylist(vm));
         }
 
-        public void AddPlaylist()
+        private void AddPlaylist()
 		{
 			var newPlaylist = "Playlist " + (Playlists.Count + 1);
 			Playlists.Add(new PlaylistViewModel { Title = newPlaylist });
 		}
 
-		public async Task SelectPlaylist(PlaylistViewModel playlist)
+		private async Task SelectPlaylist(PlaylistViewModel playlist)
 		{
 			if (playlist == null)
 				return;
