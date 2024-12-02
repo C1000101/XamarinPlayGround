@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using HelloWorld;
+using Xamarin.Forms;
 
 namespace MvvmDemo
 {
@@ -8,7 +9,7 @@ namespace MvvmDemo
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new PlaylistsPage());
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart()
